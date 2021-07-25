@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+}
+
+.computer {
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.peachy {
+  background-color: #f5c6aa;
+  color: #fdf6f0;
+}
+
+.lighty {
+  background-color: #fdf6f0;
+  color: #f5c6aa;
+}
+
+#title h1 {
+  color: #fdf6f0;
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+
+.big-title {
+  text-align: left;
+  padding-left: 0;
+  color: #fdf6f0;
+  font-size: 3.5rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navlink {
+  font-size: 1.2rem;
+  color: #fdf6f0;
+}
+
+.navlink:hover {
+  font-size: 1.2rem;
+  color: #f8e2cf;
+}
+
+.dropdown {
+  font-size: 1.2rem;
+}
+
+/* top section */
+
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+.btn-link {
+  color: #fdf6f0;
+}
+
+.btn-link:hover {
+  color: #f8e2cf;
+  text-decoration: none;
+}
+
+/* features section */
+
+.ft-head {
+  font-size: 1.5rem;
+}
+
+#features {
+  color: #8f8f8f;
+}
+
+.ft-icon {
+  color: #fcd8d4;
+  font-size: 4rem;
+}
+
+.fas:hover {
+  color: #f5c6aa;
+}
+
+/* testimonials */
+
+.testimonial-image {
+  width: 15%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 30px;
+}
+
+.stack {
+  width: 4%;
+  margin: 20px 20px 30px;
+}
+
+/*carousel*/
+
+.carousel-item {
+  padding: 7% 25%;
+}
+
+.carousel-control-prev {
+  background: none;
+  border: none;
+}
+
+.carousel-control-next {
+  background: none;
+  border: none;
+}
+
+/* projects */
+
+.row {
+  margin: auto;
+}
+
+#pricing .card-header h2 {
+  font-size: 1.5rem;
+  color: #8f8f8f;
+  background-color: none;
+  margin: 0;
+}
+
+.card-body {
+  background-color: #fdf6f0;
+  color: #8f8f8f;
+}
+
+/*contact me*/
+
+#cta h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#cta .download-btn {
+  margin: auto 1%;
+}
+
+/*footer*/
+
+#footer {
+  color: #8f8f8f;
+}
+
+.attrib-link {
+  color: #8f8f8f;
+}
+
+.attrib-link:hover {
+  color: #f5c6aa;
+}
