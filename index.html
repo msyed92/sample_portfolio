@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Manaal Syed</title>
+
+    <!--BootStrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/15e8bd3b53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="peachy" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark pb-5 px-0">
+          <a class="navbar-brand" href="">home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mt-2 mx-4">
+                <a class="navlink" aria-current="page" href="#">about me</a>
+              </li>
+              <li class="nav-item mt-2 mx-3">
+                <a class="navlink" href="#">portfolio</a>
+              </li>
+              <li class="nav-item dropdown mx-3 px-0">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  hobbies
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Crochet</a>
+                  <a class="dropdown-item" href="#">Sewing & Embroidery</a>
+                  <a class="dropdown-item" href="#">Web Development</a>
+                </div>
+              </li>
+              <li class="nav-item mt-2 mx-3">
+                <a class="navlink" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row pt-2">
+          <div class="big-title col-lg-6">
+            <div>
+              <h1>
+                Hi. <br />
+                I'm Manaal, <br />
+                a web developer.
+              </h1>
+              <a
+                class="btn-link btn btn-dark btn-lg mt-3 download-btn"
+                href="https://github.com/msyed92"
+                role="button"
+              >
+                <span class="fab fa-github"></span> GitHub
+              </a>
+              <a
+                class="btn-link btn btn-outline-light btn-lg mt-3 download-btn"
+                href="https://twitter.com/phenomanaal"
+                role="button"
+              >
+                <span class="fab fa-twitter"></span> Twitter
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img-container">
+              <img
+                src="images/responsive.png"
+                alt="flaticon-computer"
+                class="computer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features" class="lighty">
+      <div class="container-fluid">
+        <div class="row pt-5 pb-1">
+          <div class="col-lg-4 px-4">
+            <i class="ft-icon fas fa-chart-line"></i>
+            <h3 class="ft-head mt-3">Data Analytics</h3>
+            <p>
+              data analysis and machine learning models using: Python (Pandas,
+              NumPy, SciKit-Learn) and R (ggplot, tidyverse, dplyr and more)
+            </p>
+          </div>
+          <div class="col-lg-4 px-4">
+            <i class="ft-icon fas fa-database"></i>
+            <h3 class="ft-head mt-3">Data Management</h3>
+            <p>
+              managing Big Data using Hadoop, Spark, Apache Pig/Hive, MongoDB
+            </p>
+          </div>
+          <div class="col-lg-4 px-4">
+            <i class="ft-icon fas fa-code"></i>
+            <h3 class="ft-head mt-3">Web Development</h3>
+            <p>designing web pages with HTML, CSS, Bootstrap, and JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="peachy">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              I am a former math educator with a passion for creating tools used
+              by learners and teachers alike.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/tools.png"
+              alt="dog-profile"
+            />
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My current goal is to work as a Data Scientist and support
+              create adaptive educational technology.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/machine-learning.png"
+              alt="lady-profile"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press" class="peachy">
+      <h2>my skills</h2>
+      <img class="stack" src="images/python.png" alt="python-logo" />
+      <img class="stack" src="images/r.png" alt="r-logo" />
+      <img class="stack" src="images/sql-file-format.png" alt="sql-logo" />
+      <img class="stack" src="images/javascript.png" alt="javascript-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing" class="lighty">
+      <h2 class="projects-h2 pt-5 pb-0 my-0">Projects</h2>
+
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 h-100 p-4">
+          <div class="card">
+            <div class="card-header px-0 py-2">
+              <h2 class="project-head">MovieLens</h2>
+            </div>
+            <div class="card-body px-3">
+              <p>analyzing ratings of movies by demographic</p>
+              <p>R, ggplot, dplyr</p>
+              <button type="button" class="btn btn-block btn-dark">
+                Open in <span class="fab fa-github"></span> GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 h-100 p-4">
+          <div class="card">
+            <div class="card-header px-0 py-2">
+              <h2 class="project-head">Big Data</h2>
+            </div>
+            <div class="card-body px-3">
+              <p>spatial join in map reduce</p>
+              <p>Java, Hadoop</p>
+              <button type="button" class="btn btn-block btn-dark">
+                Open in <span class="fab fa-github"></span> GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 h-100 p-4">
+          <div class="card">
+            <div class="card-header px-0 py-2">
+              <h2 class="project-head">H. Habib Photos</h2>
+            </div>
+            <div class="card-body px-3">
+              <p>photography business website</p>
+              <p>Javascript, HTML/CSS, Bootstrap</p>
+              <button type="button" class="btn btn-block btn-outline-dark">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta" class="peachy py-5">
+      <h3 class="py-4">
+        Contact me about opportunities with <br />
+        your organization today.
+      </h3>
+      <a
+        class="btn-link btn btn-dark download-btn"
+        href="mailto:msyed92@gmail.com"
+        role="button"
+      >
+        <i class="fas fa-envelope-open-text"></i> Email
+      </a>
+      <a
+        class="btn-link btn btn-outline-light download-btn"
+        href="https://www.linkedin.com/in/manaal-syed-77263453/"
+        role="button"
+      >
+        <i class="fab fa-linkedin-in"></i> LinkedIn
+      </a>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="lighty py-5">
+      <a class="attrib-link" href="attributes.html">Credits</a>
+      <p>© Copyright 2021 Manaal Syed</p>
+    </footer>
+  </body>
+</html>
